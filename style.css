@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(180, 105, 105);
+    background-color: rgb(255, 255, 255);
 }
 
 nav .logo {
@@ -25,7 +25,7 @@ nav .logo img {
 }
 
 nav .logo h1 {
-    color: white;
+    color: rgb(180, 105, 105)
 }
 
 nav ul {
@@ -34,14 +34,14 @@ nav ul {
 }
 
 nav ul li {
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 0rem 2rem;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 nav ul li:hover {
-    color: rgb(70, 70, 70);
+    color: rgb(212, 120, 120);
 }
 
 /* Landing Page */
@@ -80,4 +80,56 @@ nav ul li:hover {
 
 .landingPage button:hover {
     background: rgb(212, 120, 120);
+}
+
+/* News Section */
+
+.newsSection {
+    padding: 2rem;
+    background: radial-gradient( rgb(180, 105, 105), rgb(104, 24, 24));
+}
+
+.newsSection .card {
+    margin: 2rem;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.newsSection .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.newsSection .card-body {
+    margin: 3rem;
+}
+
+.newsSection .card a {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border: none;
+    background: rgb(180, 105, 105);
+    color: white;
+}
+
+.newsSection .card a {
+    background: rgb(212, 120, 120);;
+}
+
+/* Footer */
+
+footer .logo {
+    display: flex;
+}
+
+footer .logo img {
+    padding: 0 0 0 85%;
+    height: 3rem;
+}
+
+footer .logo h1 {
+    color: rgb(180, 105, 105)
 }
