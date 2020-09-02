@@ -57,6 +57,7 @@ nav ul li:hover {
 }
 
 .landingPage h2 {
+    font-family: 'Niconne', cursive;
     font-size: 5rem;
     color: rgb(180, 105, 105);
 }
@@ -132,5 +133,6 @@ footer .logo img {
 }
 
 footer .logo h1 {
+    font-family: 'Niconne', cursive;
     color: rgb(180, 105, 105)
 }
