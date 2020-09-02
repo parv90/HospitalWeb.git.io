@@ -89,7 +89,7 @@ nav ul li:hover {
 .newsSection {
     padding: 2rem;
     background: radial-gradient( rgb(180, 105, 105), rgb(104, 24, 24));
-
+    text-align: center;
 }
 
 .newsSection h2 {
@@ -128,19 +128,50 @@ nav ul li:hover {
 .newsSection .card a {
     padding: 1rem 1rem;
     font-size: 1rem;
-    border: none;
-    background: rgb(180, 105, 105);
-    color: white;
+    border: 5px solid rgb(180, 105, 105);
+    background: rgba(180, 105, 105, 0.4);
+    color: black;
 }
 
-.newsSection .card a {
-    background: rgb(212, 120, 120);;
+.newsSection .card a:hover {
+    background: rgb(180, 105, 105);
+    color: white;
 }
 
 .newsSection .card .card-body img {
     float: right;
     margin: 0;
 }
+
+/* Research section */
+
+.researchSection {
+    height: 100vh;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.researchSection .carousel {
+    margin: 1rem 0rem;
+}
+
+.researchSection h1 {
+    text-align: center;
+    color: rgb(180, 105, 105);
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    border-bottom: rgb(180, 105, 105) 10px solid;
+}
+
+.researchSection img {
+    height: 80vh;
+}
+
+.researchSection h5 {
+    font-size: 2rem;
+}
+
 
 /* Footer */
 
